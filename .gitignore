@@ -1,0 +1,7 @@
+upload_files
+bin
+build
+.gradle
+.settings
+.project
+.classpath
