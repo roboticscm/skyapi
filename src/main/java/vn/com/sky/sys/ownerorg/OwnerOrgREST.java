@@ -344,7 +344,7 @@ public class OwnerOrgREST extends GenericREST {
 			menuId = getLongParam(request, "menuId");
 		} catch (Exception e1) {
 			// TODO Auto-generated catch block
-			e1.printStackTrace();
+//			e1.printStackTrace();
 		}
 
         return customRepo
