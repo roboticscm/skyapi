@@ -34,7 +34,7 @@ public class BaseR2dbcRepository {
             sql += ")";
         }
 
-        System.out.println(sql);
+//        System.out.println(sql);
         return sql;
     }
     

@@ -59,6 +59,8 @@ public class WebSecurityConfig {
             .authenticationManager(authenticationManager)
             .securityContextRepository(securityContextRepository)
             .authorizeExchange()
+//            .pathMatchers(HttpMethod.GET)
+//            .permitAll()
             .pathMatchers(HttpMethod.OPTIONS)
             .permitAll()
             .pathMatchers(

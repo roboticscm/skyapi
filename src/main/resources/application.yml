@@ -1,3 +1,7 @@
+grpc:
+  server:
+    port: 9898
+    
 server:
   servlet:
     context-path: /
@@ -20,3 +24,13 @@ spring:
         content:
           enabled: true
           paths: /webjars/swagger-ui/**.*
+components:
+  securitySchemes:
+    bearerAuth:            # arbitrary name for the security scheme
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      
+      
+      
+      

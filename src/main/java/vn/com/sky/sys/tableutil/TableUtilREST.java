@@ -230,8 +230,6 @@ public class TableUtilREST extends GenericREST {
 
         var query = getParam(request, "query");
         
-        System.out.println(query);
-        
         if(!QueryUtil.isValiad(query)) {
         	return error("SYS.MSG.INVALID_QUERY");
         }
